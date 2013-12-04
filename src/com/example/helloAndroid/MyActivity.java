@@ -20,6 +20,7 @@ public class MyActivity extends Activity {
     {
         EditText edit = (EditText) findViewById(R.id.editText);
         String example; //for commit on GitHu
+        //one more comment
 
         Intent intent = new Intent(MyActivity.this, AboutActivity.class);
         intent.putExtra("key", edit.getText().toString());
