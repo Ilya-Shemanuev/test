@@ -18,6 +18,10 @@ public class MyActivity extends Activity {
 
     public void onClick()
     {
+        for(int i=0; i<10;i++){
+            int a = i+1;
+        }
+
         EditText edit = (EditText) findViewById(R.id.editText);
 
         Intent intent = new Intent(MyActivity.this, AboutActivity.class);
